@@ -15,6 +15,8 @@ public class Program {
 
 	public static void main(String[] args) throws ParseException {
 		
+		//Programa para calcular salario de um funcionario, com base em data e ano dos projetos que o mesmo trabalhou.
+		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
